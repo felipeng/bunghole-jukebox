@@ -1,0 +1,9 @@
+album_view=list
+mp3_dir=/Users/felipeng/Music/MP3
+url_music=http://localhost:8080/jukebox/music
+html_path=/Library/WebServer/html/jukebox
+themes=apple,default,pngfix.js,reflex.js,selectchangeorder.js,wordpress
+theme=apple
+flash_player=disable
+cover_size=300,300
+cover_mask=.jpg,.png

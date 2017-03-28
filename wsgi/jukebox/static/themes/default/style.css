@@ -1,0 +1,131 @@
+body {
+    background-image: url("wood.jpg");
+    font-family: "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover, a.focus, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+hr {
+    width: 150px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    border: 1px  dashed #FFF;
+}
+
+table {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+}
+
+input, select{
+    border: 1px solid #D8D8D8;
+    font-size: 12px;
+}
+
+.top {
+    background-image: url("trans/trans_black_75.png");
+    height: 75px;
+    padding-right: 7px;
+}
+
+.logo{
+    margin-top: -5px;
+    position: absolute;
+    border: 0;
+}
+
+.letters {
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 9pt;
+}
+
+.menu {
+    float: right;
+    text-align: right;
+    padding-top: 15px;
+    line-height: 2;
+}
+
+.iconopacity img{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+    -moz-opacity: 0.7;
+    border: 0;
+}
+
+.iconopacity:hover img{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    -moz-opacity: 1;
+}
+
+.title {
+    background-image: url("trans/trans_black_75.png");
+    margin-top: 7px;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding: 0.5%;
+    height: 15px;
+}
+
+.title_path {
+    float: left;
+}
+
+.stats {
+    float: right;
+}
+
+.main {
+    background-image: url("trans/trans_black_75.png");
+    height: 70%;
+    margin-top: 7px;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding: 1%;
+}
+
+.main_auto {
+    background-image: url("trans/trans_black_75.png");
+    height: auto;
+    margin-top: 7px;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding: 1%;
+}
+
+.tabrow {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.zebra1 td {
+    background-color: #292929;
+}
+
+.zebra2 td {
+    background-color: #666666;
+}
+
+.zebra_total {
+    background-color: black;
+}
+
+.footer {
+    background-image: url("trans/trans_black_75.png");
+    margin-top: 5px;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding: 0.5%;
+    font-size: 9pt;
+    text-align: center;
+}
+
+.mainsearch{background:url(/jukebox/imgs/search_bg.png);float:right;width:165px;height:23px;margin-top:4px;margin-left:5px}
+.mainsearch input{width:128px;background-color:#fff;color:#333;font-size:11px;border:1px #fff solid;margin:2px 0 2px 9px}

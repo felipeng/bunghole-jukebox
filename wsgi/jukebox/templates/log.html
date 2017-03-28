@@ -1,0 +1,44 @@
+<%inherit file="base.html" />
+
+<%def name="stats()">
+    <div class="stats">
+       Total: ${info[0]} artists - ${info[1]} albums - ${info[2]} musics
+    </div>
+</%def>
+
+
+<%def name="title_path()">
+> Log
+</%def>
+
+<%def name="body()">
+<h2>Log</h2>
+                <hr />
+            <p>Select a specific log for more information.</p>
+            <table align="center" style="text-align: center;">
+                <tr>
+                    <td>
+                        <a class="iconopacity" href="/log/success">
+                            <img src="/images/icons/success.png" alt="Success" title="Success" /> success (${stat_success})
+                        </a>
+                    </td>
+                    <td>
+                        <a class="iconopacity" href="/log/notag">
+                            <img src="/images/icons/notag.png" alt="NoTag" title="NoTag" /> notag (${stat_notag})
+                        </a>
+                    </td>
+                    <td>
+                        <a class="iconopacity" href="/log/notmp3">
+                            <img src="/images/icons/notmp3.png" alt="Not Mp3" title="Not Mp3" /> notmp3 (${stat_notmp3})
+                        </a>
+                    </td>
+                    </td>
+                <tr>
+                    <td class="comment" width="170">added to database with success</td>
+                    <td class="comment" width="170">invalid or without some ID3 TAG</td>
+                    <td class="comment" width="170">file is not a .mp3 file</td>
+                    </td>
+                </tr>
+            </table><br />
+</%def>
+

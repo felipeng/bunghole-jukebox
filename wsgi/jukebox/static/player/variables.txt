@@ -1,0 +1,2 @@
+&crossFade=1&autoplay=1&player_title="Bunghole Jukebox Player"&timedisplay=0&volume_level=50&autoload=1&trackNumber=1&playlist_url=/jukebox/player/playlist.xml&loaded=true
+

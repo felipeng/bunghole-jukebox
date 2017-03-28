@@ -1,0 +1,48 @@
+<%inherit file="base.html" />
+
+<%def name="stats()">
+    <div class="stats">
+        ${info[0]} albums - ${info[1]} musics
+    </div>
+</%def>
+
+<%def name="title_path()">
+> ${artist}
+    </%def>
+
+<%def name="body()">
+    <h2>${artist}</h2>
+    <hr /><br />
+
+    <table align="center" style="width: 80%;">
+    % for album in albums:
+        <tr>
+            <td style="text-align: center; width: 130px;">
+                <a href="/album/${album['id']}">
+                    <img title="${album['year']} - ${album['name']}" src="${cover}" style="border: 1px solid #d8d8d8; padding: 3px; 137px; height: 124px;" />
+                </a>
+                <br />${album['name']} (${album['year']}) 
+            </td>
+            <td>
+                <table cellspacing="0" cellpadding="2" style="width: 100%">
+                        % for music in album['musics']:
+                        <tr class="{row}">
+                            <td width="1px">${music['track']}</td>
+                            <td style="width: 50%; text-align: left;">${music['name']}</td>
+                            <td class="tabrow">${music['bitrate']} kbps</td>
+                            <td class="tabrow">${music['length']}</td>
+                            <td class="tabrow">${music['size']}</td>
+                        </tr>
+                        % endfor
+                </table>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    % endfor
+    </table>
+</%def>

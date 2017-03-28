@@ -1,0 +1,20 @@
+
+
+0.3 - 2009-06-12 :
+    * Fixed counter the "success" in htmllog ()
+    * Fixed to create database in alphabetical order in GNU/Linux, under Mac OSX was OK
+    
+0.2 - 2009-05-01 :
+=====================
+    * Added xpsf flash player;
+    * Added nocover in htmlmusics()
+    * Added counter in htmllog() - success, notag, nomp3.
+    * Moved jukebox.db, jukebox.conf, jukebox.log and create_tables.sql to html/jukebox/config 
+    * Moved pngfix.js, reflex.js and selectchangeorder.js to html/themes
+    * Renamed html/imgs to html/images
+    * Removed htmldatabase(), now to create database is needed set MP3 Directory on settings
+    * BugFixed when creating database and if carousel was activated
+    
+0.1 - 2008-09-05 :
+=====================
+    * Initial svn publisher;

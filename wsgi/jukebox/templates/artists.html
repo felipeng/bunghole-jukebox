@@ -1,0 +1,19 @@
+## BUG - ao selecinar banda AC/DC
+
+<%inherit file="base.html" />
+
+<%def name="stats()">
+    <div class="stats">
+        ${info[0]} artists - ${info[1]} albums - ${info[2]} musics
+    </div>
+</%def>
+
+<%def name="title_path()">&nbsp;</%def>
+
+<%def name="body()">
+    <h2>${letter}</h2>
+    <hr /><br />
+    % for artist in artists:
+        <a href="/artist/${artist['name']}">${artist['name']}</a><br />
+    % endfor
+</%def>
