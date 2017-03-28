@@ -1,9 +1,0 @@
-album_view=carousel
-mp3_dir=/Users/felipeng/Music/MP3
-url_music=http://jukebox.bunghole.com.br/jukebox/music
-html_path=/home/bunghole/jukebox.bunghole.com.br/demo/html/jukebox
-themes=apple,reflex.js,wordpress,pngfix.js,selectchangeorder.js,default
-theme=apple
-flash_player=disable
-cover_size=300,300
-cover_mask=.jpg,.png
